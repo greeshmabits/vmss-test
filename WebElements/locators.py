@@ -1,0 +1,7 @@
+page_title= "Welcome: Mercury Tours"
+username_textbox="userName"
+password_textbox="password"
+login_button="submit"
+welcome_msg_box="xpath=//h3[text()='Login Successfully']"
+cookie_msg="xpath=//h1[contains(text(),'Manage Your')]"
+accept_all="xpath=//span[contains(text(),'Accept All')]"
