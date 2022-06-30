@@ -5,7 +5,7 @@ Variables    ${EXECDIR}/WebElements/locators.py
 
 *** Variables ***
 ${url}    https://demo.guru99.com/test/newtours/
-${browser}    chrome
+${browser}    headlesschrome
 ${wait_time}    5
 ${ui_username}    admin
 ${ui_password}    admin
