@@ -59,7 +59,7 @@ clickResetAndVerifyTheFormCleared
 clickSubmitAndConfirmRegistration
     click button  Submit
     log to console  !-----Submit Clicked-----!
-    alert should be present  'Student registered successfully'
+    alert should be present  Student registered successfully
     log to console  !--Student registration successful-----!
 
 clickAndFillVaccinationDriveRequest
@@ -74,5 +74,5 @@ clickAndFillVaccinationDriveRequest
 clickSubmitAndConfirmVacDriveRequestAdded
     click button  Submit
     log to console  !-----Submit Clicked-----!
-    alert should be present  'Drive added successfully'
+    alert should be present  Drive added successfully
     log to console  !--Drive added successfully-----!
